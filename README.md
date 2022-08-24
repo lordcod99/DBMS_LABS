@@ -7,3 +7,4 @@
   - Create tables and populate them using insert and load.
   - Use add, delete and modify constraints on Tables.
   - delete and update table entries.
+- [lab3](https://github.com/lordcod99/DBMS_LABS/tree/main/lab5) : Relational model
