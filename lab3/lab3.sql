@@ -1,5 +1,5 @@
 -- create database  lab3;
--- use lab3; 
+use lab3; 
 
 -- create table emp(
 -- 	user_id int not null,
@@ -52,7 +52,7 @@
 -- alter table emp
 -- drop constraint fk;
 
--- odifying the constraints by first drpoing and adding as new modified constraint
+-- modifying the constraints by first drpoing and adding as new modified constraint
 
 -- alter table emp
 -- add constraint fk foreign key(project) references project(id)
@@ -79,7 +79,8 @@ select * from project;
 
 
 
-
+insert into emp
+values(36,20,44,"Male",10000,3);
 
 
 
