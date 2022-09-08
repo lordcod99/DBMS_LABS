@@ -1,6 +1,7 @@
 -- create database lab5;
--- use lab5;
+use lab5;
 
+--  table creation and procedure creation for taask 1 to get total sum of marks through student regisrtration number  
 
 -- create table marks(
 --   reg_no int primary key auto_increment,
@@ -31,9 +32,11 @@
 -- end $$
 
 -- delimiter ;
+select * from marks;
 
+call total_marks(1);
 
--- call total_marks(1);
+-- table creation and procedure creation for increasing salary of employee by p percentage 
 
 -- create table emp(
 -- id int primary key auto_increment,
@@ -45,7 +48,7 @@
 -- insert into emp (name , salary)
 -- values("murali",300000);
 
--- select * from emp;
+select * from emp;
 
 
 -- delimiter $$
@@ -59,8 +62,11 @@
 
 
 
--- call update_salary(1,10);
+call update_salary(2,10);
 
+select * from emp;
+
+-- for throwing user defined errors for insert and delete operations
 
 -- create table city_population(
 --  id int primary key auto_increment,
