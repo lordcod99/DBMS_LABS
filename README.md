@@ -13,3 +13,5 @@
   - Write a procedure to update the salary of each employee. (
   - Create a Trigger, that raises a user defined error message whenever a user tries to insert or
     delete from the table.
+- [lab6](https://github.com/lordcod99/DBMS_LABS/tree/main/lab6) : creating database users, roles grantingg and revoking previlages 
+- [lab7](https://github.com/lordcod99/DBMS_LABS/tree/main/lab8) : indexing for a random generated databse 
